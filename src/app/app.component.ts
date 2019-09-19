@@ -6,5 +6,25 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ocr-blog';
+
+  blogs = [
+    {
+      title: 'My first post',
+      content: 'strLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet',
+      loveIts: 0,
+      createdAt: new Date()
+    },
+    {
+      title: 'My second post',
+      content: 'strLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet',
+      loveIts: 0,
+      createdAt: new Date()
+    },
+    {
+      title: 'My last post',
+      content: 'strLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet',
+      loveIts: 0,
+      createdAt: new Date()
+    }
+  ];
 }
