@@ -1,14 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { BlogComponent } from './blog/blog.component';
+import { PostListComponent } from './post-list/post-list.component';
+import { PostListItemComponent } from './post-list-item/post-list-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BlogComponent
+    PostListComponent,
+    PostListItemComponent
   ],
   imports: [
     BrowserModule,

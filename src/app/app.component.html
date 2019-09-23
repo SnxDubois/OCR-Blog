@@ -1,14 +1,5 @@
 <div class="container">
   <div class="row">
-    <div class="col-xs-12">
-      <h1>My Posts</h1>
-      <ul class="list-group">
-        <app-blog *ngFor="let blog of blogs"
-        [title]="blog.title" 
-        [content]="blog.content"
-        [loveIts]="blog.loveIts"
-        [createdAt]="blog.createdAt"></app-blog>
-      </ul>
-    </div>
+    <app-post-list [postList]="blogs"></app-post-list>    
   </div>
 </div>
